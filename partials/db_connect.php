@@ -1,0 +1,12 @@
+<?php
+$servername="localhost:3307";
+$username="root";
+$password="";
+$dbname="users";
+
+$conn=mysqli_connect($servername,$username,$password,$dbname);
+if(!$conn)
+//   echo "success";
+// else
+  die("Error".mysqli_connect_error());
+?>
